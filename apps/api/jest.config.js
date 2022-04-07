@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'api',
+  displayName: '-api',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {

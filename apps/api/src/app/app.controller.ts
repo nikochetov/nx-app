@@ -10,6 +10,7 @@ export class AppController {
 
   @Get('hello')
   getData(): Message {
+    console.log('controller call')
     return this.appService.getData();
   }
 }
